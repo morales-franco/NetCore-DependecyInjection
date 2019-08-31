@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreEssential.DependencyInjection", "NetCoreEssential.DependencyInjection\NetCoreEssential.DependencyInjection.csproj", "{66D56C58-1987-44CD-B6C8-2EA4D4C9F495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreEssential.DependencyInjection.Api", "NetCoreEssential.DependencyInjection.Api\NetCoreEssential.DependencyInjection.Api.csproj", "{A5095618-4495-4638-AAC6-7E1E23404A93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D56C58-1987-44CD-B6C8-2EA4D4C9F495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D56C58-1987-44CD-B6C8-2EA4D4C9F495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D56C58-1987-44CD-B6C8-2EA4D4C9F495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D56C58-1987-44CD-B6C8-2EA4D4C9F495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5095618-4495-4638-AAC6-7E1E23404A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5095618-4495-4638-AAC6-7E1E23404A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5095618-4495-4638-AAC6-7E1E23404A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5095618-4495-4638-AAC6-7E1E23404A93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBE7FCA3-0A21-4D14-A493-7EB0D158E043}
+	EndGlobalSection
+EndGlobal

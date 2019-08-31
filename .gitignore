@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/NetCoreEssential/v16/Server/sqlite3
+/NetCoreEssential.DependencyInjection/bin/Debug/netcoreapp2.2
+/NetCoreEssential.DependencyInjection/obj
+/NetCoreEssential.DependencyInjection.Api/bin/Debug/netcoreapp2.2
+/NetCoreEssential.DependencyInjection.Api/obj
