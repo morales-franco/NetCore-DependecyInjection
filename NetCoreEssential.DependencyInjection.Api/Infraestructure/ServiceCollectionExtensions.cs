@@ -7,7 +7,7 @@ namespace Microsoft.Extensions.DependencyInjection
     {
         public static IServiceCollection AddIronServices(this IServiceCollection services)
         {
-            services.AddScoped<IGreeterService, GreeterService>();
+            //services.AddScoped<IGreeterService, GreeterService>();
             return services;
         }
     }

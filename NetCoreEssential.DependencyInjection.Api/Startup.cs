@@ -28,7 +28,12 @@ namespace NetCoreEssential.DependencyInjection.Api
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddIronServices();
+            //Register these services as scope life-time service
+            services.AddScoped<IStudentService, StudentService>();
+            services.AddScoped<ISchoolService, SchoolService>();
+
+            //Register as Singleton
+            services.AddSingleton<IBestTeacherService, BestTeacherService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

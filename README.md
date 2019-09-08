@@ -8,3 +8,7 @@ Training about Dependency Injection with Net Core
 4. Container & Provider
 5. Creating our own Context
 6. Registering service with Factories
+
+## NetCoreEssential.DependencyInjection - Api Project
+1. Service's lifetime
+2. Dependency Injection in Controllers
