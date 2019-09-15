@@ -28,12 +28,33 @@ namespace NetCoreEssential.DependencyInjection.Api
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            //Register these services as scope life-time service
-            services.AddScoped<IStudentService, StudentService>();
-            services.AddScoped<ISchoolService, SchoolService>();
+            services.AddSchoolServices()
+                .AddFakeServices();
 
-            //Register as Singleton
-            services.AddSingleton<IBestTeacherService, BestTeacherService>();
+            //// ALL THESE SERVICES ARE REGISTERED IN AddSchoolServices();
+            ////Register these services as scope life-time service
+            //services.AddScoped<IStudentService, StudentService>();
+            //services.AddScoped<ISchoolService, SchoolService>();
+            ////Register as Singleton
+            //services.AddSingleton<IBestTeacherService, BestTeacherService>();
+
+            //// ALL THESE SERVICES ARE REGISTERED IN AddFakeServices();
+            ////Register fake services
+            //services.AddTransient<IFakeServiceA, FakeServiceA>();
+            //services.AddTransient<IFakeServiceB, FakeServiceB>();
+            //services.AddTransient<IFakeServiceC, FakeServiceC>();
+            //services.AddTransient<IFakeServiceD, FakeServiceD>();
+            //services.AddTransient<IFakeServiceE, FakeServiceE>();
+            //services.AddTransient<IFakeServiceF, FakeServiceF>();
+            //services.AddTransient<IFakeServiceG, FakeServiceG>();
+            //services.AddTransient<IFakeServiceH, FakeServiceH>();
+            //services.AddTransient<IFakeServiceI, FakeServiceI>();
+            //services.AddTransient<IFakeServiceJ, FakeServiceJ>();
+
+
+
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
