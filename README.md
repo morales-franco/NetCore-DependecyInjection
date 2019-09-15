@@ -12,3 +12,4 @@ Training about Dependency Injection with Net Core
 ## NetCoreEssential.DependencyInjection - Api Project
 1. Service's lifetime
 2. Dependency Injection in Controllers
+3. Splitting service registrations into separate files - Extension Methods - Clean Code
