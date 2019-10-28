@@ -15,3 +15,8 @@ Training about Dependency Injection with Net Core
 3. Splitting service registrations into separate files - Extension Methods - Clean Code
 4. Using IConfiguration to retrieve simple keys from appSettings.
 5. Using IOptions<> to retrieve complex keys from appSettings injecting a class that represents a config section in services
+
+## Check out my blog for more detail
+1. https://fmoralesdev.com/2019/09/02/dependency-injection-net-core-part-i/
+2. https://fmoralesdev.com/2019/09/09/dependency-injection-net-core-part-ii/
+3. https://fmoralesdev.com/2019/09/20/extension-method-to-split-services-registrations-dependency-injection-net-core-part-iii/
