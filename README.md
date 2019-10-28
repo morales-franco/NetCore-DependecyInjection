@@ -13,3 +13,5 @@ Training about Dependency Injection with Net Core
 1. Service's lifetime
 2. Dependency Injection in Controllers
 3. Splitting service registrations into separate files - Extension Methods - Clean Code
+4. Using IConfiguration to retrieve simple keys from appSettings.
+5. Using IOptions<> to retrieve complex keys from appSettings injecting a class that represents a config section in services
