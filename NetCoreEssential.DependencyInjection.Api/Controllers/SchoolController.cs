@@ -9,6 +9,7 @@ namespace NetCoreEssential.DependencyInjection.Api.Controllers
     {
         private readonly ISchoolService _service;
         private readonly IBestTeacherService _bestTeacherService;
+
         public SchoolController(ISchoolService schoolService,
             IBestTeacherService bestTeacherService)
         {

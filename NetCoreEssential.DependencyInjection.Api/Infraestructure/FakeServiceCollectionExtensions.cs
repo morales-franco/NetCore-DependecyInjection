@@ -3,7 +3,7 @@ using NetCoreEssential.DependencyInjection.Api.Services;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
-    public static class FakeServiceCollection
+    public static class FakeServiceCollectionExtensions
     {
         public static IServiceCollection AddFakeServices(this IServiceCollection services)
         {

@@ -12,7 +12,7 @@ namespace NetCoreEssential.DependencyInjection.Api.Controllers
         public StudentController(IStudentService studentService)
         {
             _service = studentService;
-        }
+       }
 
         public IActionResult GetAll()
         {

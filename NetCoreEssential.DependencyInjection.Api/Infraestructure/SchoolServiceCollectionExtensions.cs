@@ -3,7 +3,7 @@ using NetCoreEssential.DependencyInjection.Api.Services;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
-    public static class SchoolServiceCollection
+    public static class SchoolServiceCollectionExtensions
     {
         public static IServiceCollection AddSchoolServices(this IServiceCollection services)
         {
